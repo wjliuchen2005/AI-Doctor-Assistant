@@ -32,9 +32,9 @@ os.makedirs(RECORD_FOLDER, exist_ok=True)
 # 在API密钥下方添加
 BAIDU_TTS_URL = 'https://tsn.baidu.com/text2audio'
 # API key should be configured properly in production
-API_KEY = "sk-5648acb4073343caa79bd7c1e16f248c"  # Replace with actual API key
-BAIDU_API_KEY = 'ljh8uXHNf7LmvozSVPHIeEmf'       # 百度云应用的 API Key
-BAIDU_SECRET_KEY = 'qzgtsmItn9PJDTuTaU3mCUS8vRwn0lAy' # 百度云应用的 Secret Key
+API_KEY = "Your DeepSeek API key"  # Replace with actual API key
+BAIDU_API_KEY = 'Your Baidu API key'       # 百度云应用的 API Key
+BAIDU_SECRET_KEY = 'Your Baidu Secret key' # 百度云应用的 Secret Key
 
 class VoiceInputThread(QtCore.QThread):
     recognized = QtCore.pyqtSignal(str)
